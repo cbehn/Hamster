@@ -50,7 +50,7 @@ To create a robust and user-friendly system for designers and engineers to quick
     *   **Type:** Relational Database.
     *   **Initial Choice:** SQLite.
         *   *Reasoning:* Simple to set up (file-based), can be placed on a network share. Good for initial development and smaller teams.
-    *   **Alternative/Scalable Options:** PostgreSQL or MySQL.
+    *   **Future Potential Options:** PostgreSQL or MySQL.
         *   *Reasoning:* More robust for concurrent multi-user access, better performance for very large datasets, requires a dedicated server.
 3.  **Part File Storage:**
     *   Standard Network File Share (e.g., SMB/CIFS). Part geometry will be stored as individual `.3dm` files.
